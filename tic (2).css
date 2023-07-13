@@ -1,0 +1,55 @@
+#logo
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+body
+{
+    background-image: linear-gradient(to bottom right, #000000, #414141);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#game
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    column-gap: 0%;
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box
+{
+    background-color:aqua;
+    border-color: white;
+    border: solid 2px white;
+    min-width: 30%;
+    min-height:50px;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+  
